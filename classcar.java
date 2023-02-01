@@ -43,9 +43,9 @@ class car{
        this.model=model;
        this.amountOfFuel=amountOfFuel;
    }
-//    car(){
-//
-//    }
+   car(){
+        System.out.println("This is a default constructor");
+   }
 
 
 }
