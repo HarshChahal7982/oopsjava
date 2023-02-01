@@ -38,11 +38,11 @@ class car{
         System.out.println("Fuel on the tank after the refuel: "+(amount+amountOfFuel));
     }
 
-//    car(String brand, int model,int amountOfFuel) {
-//        this.brand=brand;
-//        this.model=model;
-//        this.amountOfFuel=amountOfFuel;
-//    }
+   car(String brand, int model,int amountOfFuel) {
+       this.brand=brand;
+       this.model=model;
+       this.amountOfFuel=amountOfFuel;
+   }
 //    car(){
 //
 //    }
@@ -85,8 +85,8 @@ Fuel on the tank: 10 Refuel: 5 <-- this is the parameter amount Fuel on the tank
      car1.setModel(500);
      car1.setAmountOfFuel(10);
         car1.printData();
-//        car car2=new car("Fiat",400,40);
-//        car2.printData();
+       car car2=new car("Fiat",400,40);
+       car2.printData();
         car1.refuel(5);
 
 
